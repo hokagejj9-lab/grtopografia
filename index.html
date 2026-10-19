@@ -1,79 +1,156 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GR Topografia</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GR Topografia e Meio Ambiente. Soluções em levantamento topográfico, georreferenciamento e meio ambiente.">
+  <title>GR Topografia e Meio Ambiente</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">
-    <span class="logo-g"</span><span class="logo-r"></span> 
-</div>
+  <header class="cabecalho">
+    <a href="#inicio" class="logo" aria-label="GR Topografia - Início">
+      <span>G<span class="logo-r">R</span></span>
+      <small>TOPOGRAFIA E MEIO AMBIENTE</small>
+    </a>
 
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#sobre">Sobre nós</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      ☰
+    </button>
 
-        <section id="inicio">
-            <div class="logo-grande">
-    <span class="g">G</span><span class="r">R</span>
-</div>
+    <nav id="menu" class="menu" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-<h1>TOPOGRAFIA E MEIO AMBIENTE</h1>
-            <p>Precisão, tecnologia e confiança.</p>
-            <button>Solicitar Orçamento</button>
-        </section>
-    </header>
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-conteudo">
+        <span class="etiqueta">GR TOPOGRAFIA E MEIO AMBIENTE</span>
+        <h1>Precisão que transforma terrenos em grandes projetos.</h1>
+        <p>
+          Soluções em topografia, georreferenciamento e meio ambiente,
+          com foco em precisão, responsabilidade e confiança.
+        </p>
+        <div class="hero-botoes">
+          <a href="#contato" class="botao botao-vermelho">Solicitar orçamento →</a>
+          <a href="#servicos" class="botao botao-contorno">Nossos serviços</a>
+        </div>
+      </div>
+    </section>
 
-    <main>
+    <section id="servicos" class="secao">
+      <div class="container">
+        <span class="subtitulo">O QUE FAZEMOS</span>
+        <h2>Soluções para cada projeto</h2>
+        <p class="introducao">
+          Conheça nossas principais áreas de atuação.
+        </p>
 
-        <section id="servicos">
-            <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+          <article class="servico-card">
+            <div class="servico-icone">⌖</div>
+            <h3>Levantamento Topográfico</h3>
+            <p>Levantamentos e medições para apoiar o planejamento e a execução de projetos.</p>
+            <a href="#contato">Solicitar informações →</a>
+          </article>
 
-            <div>
-                <h3>📐 Levantamento Topográfico</h3>
-                <p>Levantamentos precisos para diferentes tipos de projetos.</p>
-            </div>
+          <article class="servico-card">
+            <div class="servico-icone">◎</div>
+            <h3>Georreferenciamento</h3>
+            <p>Soluções técnicas relacionadas à localização e à representação de propriedades.</p>
+            <a href="#contato">Solicitar informações →</a>
+          </article>
 
-            <div>
-                <h3>🌎 Georreferenciamento</h3>
-                <p>Serviços de georreferenciamento e levantamento de propriedades.</p>
-            </div>
+          <article class="servico-card">
+            <div class="servico-icone">♧</div>
+            <h3>Meio Ambiente</h3>
+            <p>Serviços voltados às necessidades ambientais de diferentes projetos.</p>
+            <a href="#contato">Solicitar informações →</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-            <div>
-                <h3>🌱 Meio Ambiente</h3>
-                <p>Soluções e serviços relacionados à área ambiental.</p>
-            </div>
-        </section>
+    <section id="sobre" class="secao sobre">
+      <div class="container sobre-conteudo">
+        <div>
+          <span class="subtitulo">QUEM SOMOS</span>
+          <h2>Compromisso com cada detalhe.</h2>
+          <p>
+            A GR Topografia e Meio Ambiente atua nas áreas de topografia,
+            georreferenciamento e meio ambiente, oferecendo soluções
+            para as necessidades de seus clientes.
+          </p>
+          <p>
+            Nosso objetivo é contribuir para projetos com responsabilidade,
+            atenção técnica e um atendimento próximo.
+          </p>
+          
 
-        <section id="sobre">
-            <h2>Sobre a GR</h2>
-            <p>
-                A GR Topografia e Meio Ambiente oferece serviços especializados
-                com foco em precisão, qualidade e confiança.
-            </p>
-        </section>
 
-        <section id="contato">
-            <h2>Entre em contato</h2>
-            <p>Solicite um orçamento para o seu projeto.</p>
-            <a href="https://wa.me/5519997237964" target="_blank">
-    Falar pelo WhatsApp
-</a>
-        </section>
-        
+        </div>
+        <div class="sobre-destaque">
+          <span>GR</span>
+          <h3>Precisão. Tecnologia. Confiança.</h3>
+        </div>
+      </div>
+    </section>
+
     
+<section id="contato" class="secao contato">
+  <div class="container">
+    <span class="subtitulo">FALE CONOSCO</span>
 
-    </main> 
+    <h2>Vamos conversar sobre seu projeto?</h2>
+
+    <p>
+      Entre em contato para saber mais sobre nossos serviços
+      e solicitar um orçamento.
+    </p>
+
+    <a
+      href="https://wa.me/5519997237964"
+      class="botao botao-vermelho"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Solicitar orçamento pelo WhatsApp →
+    </a>
+  </div>
+</section>
+
+     
+  </main>
+
+  <footer>
+    <div class="container rodape">
+      <strong>GR Topografia e Meio Ambiente</strong>
+      <p>Precisão, tecnologia e confiança.</p>
+      <small>© <span id="ano"></span> GR Topografia e Meio Ambiente.</small>
+    </div>
+  </footer>
+
+<!-- Botão flutuante do WhatsApp -->
+<a
+  
+href="https://wa.me/5519997237964"  
+  class="whatsapp-flutuante"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Fale com a GR pelo WhatsApp"
+  title="Solicite seu orçamento pelo WhatsApp"
+>
+  <svg viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+    <path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.3.6 4.5 1.8 6.5L3 29l6.9-1.8c1.9 1 4 1.5 6.1 1.5 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.5c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4a10.4 10.4 0 0 1-1.6-5.7C5.2 9.9 10 5.2 16 5.2s10.8 4.7 10.8 10.6S22 26.5 16 26.5zm5.9-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.8s1.2 3.1 1.4 3.3c.2.2 2.4 3.8 5.9 5.1 2.9 1.1 3.5.9 4.1.8.6-.1 1.9-.8 2.1-1.6.3-.8-1.5.2-1.6-.1-.2-.3-.3-.6-.5z"/>
+  </svg>
+</a>
 
 </body>
 </html>
